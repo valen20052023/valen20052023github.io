@@ -6,7 +6,7 @@
 
 /*etiquetas generales*/
 body {
-    background-color: rgb(255, 127, 249);
+    background-color: rgb(125, 78, 123);
 }
 ul{
     list-style: none;
@@ -42,8 +42,4 @@ header ul li {
 .principal {
     background-color: blue;
     text-align: center;
-}
-
-body {
-    h2;
 }
