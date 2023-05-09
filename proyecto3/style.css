@@ -1,0 +1,49 @@
+/* selector universal */
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+/*etiquetas generales*/
+body {
+    background-color: rgb(255, 127, 249);
+}
+ul{
+    list-style: none;
+}
+a{
+    color: rgb(205, 230, 255);
+    text-decoration: none;
+}
+h1,
+section {
+    margin-top: 10px;
+
+}
+
+header {
+    padding: 15px;
+    display: flexbox;
+    justify-content: space-between;
+    grid-gap 0 15px;
+}
+
+/*estilos puntuales */
+header nav ul {
+    display: flex;
+    justify-content: last baseline;
+    border-color: rgb(196, 255, 219);
+}
+header ul li {
+    color: rgb(100, 76, 121);
+    margin-left: 15px;
+}
+
+.principal {
+    background-color: blue;
+    text-align: center;
+}
+
+body {
+    h2;
+}
