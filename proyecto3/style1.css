@@ -1,6 +1,11 @@
 style.css
-div {
+*{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
     width: 400px; height: 150px;
+    height: 150px;
     background-color: aqua;
     border: 4px dotted ;
     padding: 40px;
