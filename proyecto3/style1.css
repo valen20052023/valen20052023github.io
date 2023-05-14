@@ -1,22 +1,11 @@
-style.css
-*{
-    padding: 10px;
-    margin: 10px;
+main {
+    border-right: 5px;
+    color: beige;
 }
-.contenedor{
-    width: 400px; height: 150px;
-    height: 150px;
-    background-color: aqua;
-    border: 4px dotted ;
-    padding: 40px;
-    margin: 50px;
-    display: inline-table;
+footer {
+    border: 5px;
+    color: rgb(62, 31, 31);
 }
-div p {
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: rgb(87, 87, 149);
+main {
+    padding-left: 5px;
 }
