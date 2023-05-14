@@ -1,4 +1,4 @@
-2style.css
+style.css
 *{
     padding: 0;
     margin: 0;
@@ -14,9 +14,9 @@ body {
 
 header{
     background-color: rgb(23, 186, 120);
-    border-bottom: 3px solid # dddddd;
+    border-bottom: 3px solid #893a7c dddddd;
     display: flex;
-    jutify-content:space-between;
+    justify-content:space-between;
     padding: 20px;
 }
 
@@ -49,7 +49,7 @@ nav ul li a {
 }
 footer {
     background-color: lightgreen;
-    font-size: 0%;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;font-style: oblique;
     line-height: 30px;
