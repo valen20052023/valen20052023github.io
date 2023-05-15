@@ -1,0 +1,63 @@
+clase7style.css
+.container {
+    display: grid;
+    grid-template: columns:repeat(3 1fr);
+    grid-auto-rows:1 fr;
+    /*grip-gap:10px;separacion filas y columnas por igual*/
+    /* estilos para seperar filas y columnas por seperado*/
+    grid-column-gap: 30px;
+    grid-row-gap: 15px ;
+    text-align:center;
+}
+
+.item {
+    background-color:rgb(80, 25, 25);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+
+@media (max-width: 768px) {
+
+    .container {
+        grid-template-rows: repeat(2 1fr); /*cambia a 2 columnas*/
+        grid-template-columns: repeat(3 1fr); /*cambia a 3 filas*/
+    }
+    
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto;
+    /*grip-gap:20px;*/
+    text-align:center;
+    background-color: lightcoral;
+    grid-row-gap:20px;
+    grid-column-gap:10px ;
+
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1;
+    border: 2px solid greenyellow;
+    padding: 10px;
+}
+aside {
+    grid-row: 2px;
+    border-right: 3px solid burlywood;
+}
+article {
+    grid-column: 2/4;
+    grid-row: 2;
+    border-left: 3px solid slategrey;
+    padding: 10px;
+}
+
+footer {
+    grid-column: 1/4;
+    grid-row: 3;
+    border: 2px solid darkolivegreen;
+    padding: 10px;
+}
